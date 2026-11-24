@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interests | Retag</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+            <a class="logo" href="index.html">R<span>♡</span><small>CREATIVE PORTFOLIO</small></a>
+            <div class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="coding.html">CODING</a>
+                <a href="art.html">ART</a>
+                <a href="about.html">ABOUT</a>
+                <a class="active" href="interests.html">INTERESTS</a>
+                <a href="dreams.html">DREAMS</a>
+            </div>
+            <a class="nav-button" href="contact.html">SAY HELLO ♡</a>
+        </nav>
+
+        <main>
+            <header class="page-hero">
+                <div class="page-copy">
+                    <p class="eyebrow">THE THINGS THAT INSPIRE ME</p>
+                    <h1>My Little <em>Interests.</em></h1>
+                    <p>From creativity to exploring the world, here are ten things I love.</p>
+                </div>
+                <div class="page-photo">
+                    <img
+                        src="https://images.unsplash.com/photo-1766240571855-74dc2dc469b1?auto=format&fit=crop&w=1300&q=85"
+                        alt="Aesthetic pink planner with flowers"
+                    />
+                </div>
+            </header>
+
+            <section class="section pale reveal">
+                <p class="eyebrow">DISCOVER MY WORLD</p>
+                <h2>Things I <em>Love.</em></h2>
+                <p class="section-intro">Click a card to learn a little more!</p>
+
+                <div class="interest-grid">
+                    <button
+                        class="interest-card"
+                        data-info="I enjoy exploring colours, layouts and turning new ideas into creative designs."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1577941796491-999f99ba658f?auto=format&fit=crop&w=450&q=80"
+                            alt="Watercolor supplies"
+                        />
+                        <span>Designing & Creativity</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I love discovering new places, learning about cultures and making memories while travelling."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=450&q=80"
+                            alt="Peaceful landscape"
+                        />
+                        <span>Travelling & Exploring</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="Planning helps me organize my ideas and turn creative plans into real projects."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1766240571855-74dc2dc469b1?auto=format&fit=crop&w=450&q=80"
+                            alt="Minimal pink stationery"
+                        />
+                        <span>Planning & Organizing</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I love exploring scientific discoveries and learning how technology changes the world."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1749539543184-f4a2b557ace0?auto=format&fit=crop&w=450&q=80"
+                            alt="Laptop workspace"
+                        />
+                        <span>Science & Technology</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I'm learning HTML, CSS and JavaScript and enjoy building beautiful, interactive websites."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1749539543184-f4a2b557ace0?auto=format&fit=crop&w=450&q=80"
+                            alt="Creative computer workspace"
+                        />
+                        <span>Coding & Web Design</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I love swimming and enjoying the water. It's one of my favourite activities."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=450&q=80"
+                            alt="Swimming pool"
+                        />
+                        <span>Swimming & Water Activities</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="Reading lets me discover new stories, ideas and interesting things about the world."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1742057746853-fb83a699201b?auto=format&fit=crop&w=450&q=80"
+                            alt="Journal and flowers"
+                        />
+                        <span>Reading & Learning</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I love animals, especially cats, and enjoy the beauty of flowers and nature."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1691600351161-46cf07eda7a7?auto=format&fit=crop&w=450&q=80"
+                            alt="Single pink flower"
+                        />
+                        <span>Animals & Nature</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I enjoy teamwork, supporting people and helping make a positive difference."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1675472574322-50633f897b2f?auto=format&fit=crop&w=450&q=80"
+                            alt="Pastel planning stationery"
+                        />
+                        <span>Leadership & Helping Others</span>
+                    </button>
+
+                    <button
+                        class="interest-card"
+                        data-info="I love beautiful colours, creative styling and exploring elegant fashion inspiration."
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1691600351161-46cf07eda7a7?auto=format&fit=crop&w=450&q=80"
+                            alt="Minimal rose aesthetic"
+                        />
+                        <span>Fashion & Aesthetic Design</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <dialog id="interest-popup">
+            <button class="close" id="close-popup" aria-label="Close">×</button>
+            <h2 id="popup-title"></h2>
+            <p id="popup-text"></p>
+            <img id="popup-photo" alt="Interest photo" />
+        </dialog>
+
+        <footer>
+            <div class="footer-logo">R♡</div>
+            <p>Made with love, creativity &amp; a little bit of code ♡</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
